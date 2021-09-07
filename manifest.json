@@ -3,22 +3,17 @@
 	"description": "Autoplay next episode on Watch Cartoon Online",
 	"version": "1.0",
 
-	"background": {
-		"service_worker": "background.js"
-	},
-	"permissions": [
-		"activeTab",
-		"declarativeContent"
-	],
 	"action": {
 		"default_icon": {
 			"32": "icons/icon32.png"
 		},
 		"default_title": "WatchCartoonOnline Autoplay"
 	},
+
 	"icons": {
 		"32": "icons/icon32.png"
 	},
+
 	"content_scripts": [
 		{
 			"matches": ["https://*.thewatchcartoononline.tv/*"],
@@ -28,6 +23,7 @@
 			"all_frames": true
 		}
 	],
+
 	"host_permissions": ["https://*.thewatchcartoononline.tv/*"],
 
 	"manifest_version": 3
