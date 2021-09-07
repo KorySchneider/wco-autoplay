@@ -1,0 +1,25 @@
+iframe {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000000;
+}
+
+#video-js {
+  position: fixed !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  left: 0;
+  top: 0;
+}
+
+.vjs-control-bar {
+  position: fixed !important;
+  bottom: 0;
+}
+
+.jcarousel-wrapper {
+  display: none !important;
+}
