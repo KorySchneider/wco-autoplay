@@ -1,5 +1,5 @@
 # WatchCartoonOnline Autoplay
-A Chrome extension to autoplay the next episode on Watch Cartoon Online
+A Chrome extension to autoplay the next episode on [Watch Cartoon Online](https://thewatchcartoononline.tv).
 
 ## Installation
 ### Chrome Web Store
