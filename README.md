@@ -8,8 +8,9 @@ Link coming soon; extension pending review.
 ### Load Unpacked
 To manually install the extension from the source code:
 
-0. Download or clone this repository. If you downloaded it as a zip file, unzip it.
-1. Open a new tab and go to `chrome://extensions`.
-2. Enable developer mode in top right of the extension management page.
-3. Click `Load unpacked` in the top left.
-4. Select the directory you cloned/downloaded this repository to.
+0. Download the extension package by clicking [here](https://github.com/KorySchneider/wco-autoplay/raw/main/wco-autoplay.zip).
+1. Unzip the package into a directory of your choosing.
+2. Open a new Chrome tab and go to `chrome://extensions`.
+3. Enable developer mode in top right of the extension management page.
+4. Click `Load unpacked` in the top left.
+5. Select the directory you unzipped the package into.
