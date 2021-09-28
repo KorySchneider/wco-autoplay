@@ -3,7 +3,7 @@ A Chrome extension to autoplay the next episode on [Watch Cartoon Online](https:
 
 ## Installation
 ### Chrome Web Store (recommended)
-Link coming soon; extension pending review.
+[Extension page 🔗](https://chrome.google.com/webstore/detail/wco-autoplay/mcijhjlgoibajdhpiehdidmnbplidpef)
 
 ### Load Unpacked
 To manually install the extension from the source code:
