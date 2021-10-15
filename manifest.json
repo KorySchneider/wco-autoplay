@@ -1,7 +1,7 @@
 {
 	"name": "WCO Autoplay",
 	"description": "Autoplay next episode on Watch Cartoon Online",
-	"version": "1.0",
+	"version": "1.0.1",
 
 	"action": {
 		"default_icon": {
@@ -16,7 +16,7 @@
 
 	"content_scripts": [
 		{
-			"matches": ["https://*.thewatchcartoononline.tv/*"],
+			"matches": ["https://*.wcofun.com/*"],
 			"js": ["autoplay.js"],
       "css": ["fullscreen.css"],
 			"run_at": "document_idle",
@@ -24,7 +24,7 @@
 		}
 	],
 
-	"host_permissions": ["https://*.thewatchcartoononline.tv/*"],
+	"host_permissions": ["https://*.wcofun.com/*"],
 
 	"manifest_version": 3
 }
